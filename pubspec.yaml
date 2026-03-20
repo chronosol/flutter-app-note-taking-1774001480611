@@ -3,5 +3,12 @@ environment:
   sdk: ">=3.0.0 <4.0.0"
 dependencies:
   flutter:
-    uses-material-design: true
- true
+    sdk: flutter
+  flutter_quill: any
+  provider: any
+  cloud_firestore: any
+  firebase_core: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
